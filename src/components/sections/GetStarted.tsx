@@ -5,8 +5,8 @@ import { useState } from 'react'
 export function GetStarted() {
   const [copied, setCopied] = useState(false)
 
-  const code = `git clone https://github.com/FortiEscrow/protocol.git
-cd protocol
+  const code = `git clone https://github.com/FortiEscrow/FortiEscrow.git
+cd FortiEscrow
 pip install -r requirements.txt
 pytest tests/ -v`
 
@@ -44,8 +44,8 @@ pytest tests/ -v`
           <div className="p-6">
             <pre className="text-sm font-mono leading-relaxed text-text-secondary overflow-x-auto">
               <code>
-                <span className="text-text-tertiary">$</span> git clone https://github.com/FortiEscrow/protocol.git{'\n'}
-                <span className="text-text-tertiary">$</span> cd protocol{'\n'}
+                <span className="text-text-tertiary">$</span> git clone https://github.com/FortiEscrow/FortiEscrow.git{'\n'}
+                <span className="text-text-tertiary">$</span> cd FortiEscrow{'\n'}
                 <span className="text-text-tertiary">$</span> pip install -r requirements.txt{'\n'}
                 <span className="text-text-tertiary">$</span> pytest tests/ -v
               </code>

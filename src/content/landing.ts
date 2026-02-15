@@ -364,7 +364,7 @@ export const landingContent = {
     ],
 
     gitHub:
-      "github.com/FortiEscrow/protocol — fully open source, auditable by the community",
+      "github.com/FortiEscrow/FortiEscrow — fully open source, auditable by the community",
   },
 
   // ============================================

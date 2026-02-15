@@ -18,13 +18,13 @@ export function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 pt-8">
-            <a href="https://github.com/FortiEscrow/protocol" className="btn-outline">
+            <a href="https://github.com/FortiEscrow/FortiEscrow" target="_blank" rel="noopener noreferrer" className="btn-outline">
               View GitHub →
             </a>
             <a href="#architecture" className="btn-outline">
               View Architecture →
             </a>
-            <a href="#docs" className="btn-outline">
+            <a href="https://github.com/FortiEscrow/FortiEscrow/tree/main/docs" target="_blank" rel="noopener noreferrer" className="btn-outline">
               Read Docs →
             </a>
           </div>
