@@ -45,11 +45,15 @@ body {
 
   /* Button styles - minimal outline only */
   .btn-outline {
-    @apply px-4 py-3 rounded border border-text-tertiary text-text-primary hover:border-text-secondary transition-colors duration-200 font-mono text-sm;
+    @apply inline-block px-6 py-3 rounded-lg border border-text-tertiary text-text-primary hover:border-text-secondary hover:bg-bg-tertiary transition-all duration-200 font-mono text-sm cursor-pointer text-center;
   }
 
   .btn-outline:hover {
-    @apply bg-bg-tertiary;
+    @apply border-text-secondary bg-bg-tertiary;
+  }
+
+  .btn-outline:focus {
+    @apply outline-none ring-2 ring-text-secondary/50;
   }
 
   /* Divider */
