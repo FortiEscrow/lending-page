@@ -2,6 +2,8 @@
 
 Official landing page for FortiEscrow — a protocol-grade escrow framework on Tezos.
 
+**🚀 Live Demo: https://lending-page-ten.vercel.app/**
+
 ![FortiEscrow Landing Page](./public/lending-page.png)
 
 ## Overview
